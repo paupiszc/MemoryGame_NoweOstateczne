@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace MemoryGame_NoweOstateczne
 {
-    public partial class Form1 : Form
+    public partial class OknoGry : Form
     {
-        public Form1()
+        public OknoGry()
         {
             InitializeComponent();
-        }
-
-        private void Start_button_Click(object sender, EventArgs e)
-        {
-            new OknoGry().ShowDialog();
         }
     }
 }
