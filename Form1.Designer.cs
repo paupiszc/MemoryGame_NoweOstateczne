@@ -86,7 +86,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(141, 18);
             this.label5.TabIndex = 4;
-            this.label5.Text = "potem przez 60 sekund";
+            this.label5.Text = "potem przez 30 sekund";
             // 
             // label6
             // 
