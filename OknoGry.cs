@@ -562,7 +562,7 @@ namespace MemoryGame_NoweOstateczne
             {
                 timer4.Stop();
                 new Form2().ShowDialog();
-
+        
             }
         }
 
