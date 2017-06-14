@@ -389,7 +389,9 @@
             this.Controls.Add(this.ScoreCounter);
             this.Controls.Add(this.ScoreLabel);
             this.Controls.Add(this.CardsHolder);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "OknoGry";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OknoGry";

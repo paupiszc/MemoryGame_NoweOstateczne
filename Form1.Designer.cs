@@ -66,7 +66,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(157, 22);
             this.label3.TabIndex = 2;
-            this.label3.Text = "czyli grę pamięciowa.";
+            this.label3.Text = "czyli grę pamięciową.";
             // 
             // label4
             // 
@@ -125,7 +125,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(286, 261);
+            this.ClientSize = new System.Drawing.Size(282, 267);
             this.Controls.Add(this.Start_button);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -134,6 +134,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MemoryGame";
